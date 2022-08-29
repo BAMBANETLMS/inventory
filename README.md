@@ -14,10 +14,13 @@ Includes: Stock Taking.
 
 ```shell
 // For laravel-admin 
-composer require bambanetlms/inventorys
+composer require bambanetlms/inventory
 ```
 ```shell
 php artisan admin:import inventory
+```
+```shell
+php artisan migrate
 ```
 
 License
